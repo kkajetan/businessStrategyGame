@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="./css/style.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<p class="main-text">Biznes strategia</p>
+		</header>
+		<main>
+			<div class="container">
+				<div class="menu">
+					<div class="buttons">
+						<input
+							type="button"
+							value="Kariera"
+							id="career"
+						/>
+						<input
+							type="button"
+							value="Giedła krypto"
+							id="crypto"
+						/>
+						<input
+							type="button"
+							value="Giedła Metali"
+							id="metalsBtn"
+						/>
+						<input
+							type="button"
+							value="Bank"
+							id="bank"
+						/>
+						<input
+							class="skipYearBtn"
+							type="button"
+							value="Następny rok"
+							id="nextYear"
+						/>
+						<p class="year">Rok 2023</p>
+					</div>
+				</div>
+				<div class="content">
+					<div class="madeBy">
+						<p>Designed and programmed by <span>@kkajetan_</span></p>
+					</div>
+					<div
+						class="career hide"
+						id="sectionCareer"
+					>
+						<div class="actions">
+							<div class="about-me">
+								<p class="job">Wykonywana praca: Bezrobotny</p>
+								<p class="salary">Wynagrodzenie: 0 PLN</p>
+								<input
+									type="button"
+									value="Szukaj pracy"
+									id="changeJob"
+									class="changingJob"
+								/>
+								<ul class="skills-section">
+									Umiejętności:
+								</ul>
+								<li id="skill1">Samodyscyplina: 1</li>
+								<li id="skill2">Umiejętności twarde: 1</li>
+								<li id="skill3">Umiejętności miękie: 1</li>
+								<li id="skill4">Wiedza: 1</li>
+								<input
+									type="button"
+									value="Podnieś Umiejętności - 500PLN"
+									id="study"
+								/>
+							</div>
+						</div>
+					</div>
+					<div
+						class="crypto hide"
+						id="sectionCrypto"
+					>
+						<div class="bitcoiny">
+							<table>
+								<thead>
+									<tr>
+										<th colspan="4">BINANCE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nazwa kryptowaluty</td>
+										<td>Aktualny kurs kryptowaluty</td>
+										<td>Kupno kryptowaluty</td>
+										<td>Sprzedaż kryptowaluty</td>
+									</tr>
+									<tr>
+										<td>Bitcoin</td>
+										<td id="bitcoinKurs">119980.45</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="btcBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="btcSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Ethereum</td>
+										<td id="ethereumKurs">7618.12</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="ethBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="ethSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Carrdano</td>
+										<td id="carrdanoKurs">1.57</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="crdBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="crdSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Litecoin</td>
+										<td id="litecoinKurs">405.13</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="ltcBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="ltcSell"
+											/>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="portfelKrypto">
+							<input
+								type="button"
+								value="Portfel"
+								id="cryptoWallet"
+							/>
+						</div>
+					</div>
+					<div
+						class="metals hide"
+						id="sectionMetals"
+					>
+						<div class="metale">
+							<table>
+								<thead>
+									<tr>
+										<th colspan="4">GIEŁDA SUROWCÓW</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nazwa surowca</td>
+										<td>Aktualny kurs surowca</td>
+										<td>Kupno surowca</td>
+										<td>Sprzedaż surowca</td>
+									</tr>
+									<tr>
+										<td>Złoto</td>
+										<td id="zlotoKurs">8620.61</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="goldBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="goldSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Srebro</td>
+										<td id="srebroKurs">101.66</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="silverBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="silverSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Platyna</td>
+										<td id="platynaKurs">4271.77</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="platinumBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="platinumSell"
+											/>
+										</td>
+									</tr>
+									<tr>
+										<td>Diamenty</td>
+										<td id="diamentyKurs">34219.82</td>
+										<td>
+											<input
+												type="button"
+												value="Kup"
+												id="diamondBuy"
+											/>
+										</td>
+										<td>
+											<input
+												type="button"
+												value="Sprzedaj"
+												id="diamondSell"
+											/>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="portfelSurowce">
+							<input
+								type="button"
+								value="Portfel"
+								id="metalsWallet"
+							/>
+						</div>
+					</div>
+					<div
+						class="bank hide"
+						id="sectionBank"
+					>
+						<div class="bankacc">
+							<div class="stats">
+								<img
+									src="./img/bank-logo.svg"
+									alt="Logo banku santander"
+									srcset=""
+									height="70px"
+									class="logo-santander"
+								/>
+								<p id="bankMoney">Twoje saldo: 2000 PLN</p>
+								<div class="kredyty">
+									<p>Chwilówki</p>
+									<input
+										type="button"
+										value="2500 PLN"
+										id="loan1"
+									/>
+									<input
+										type="button"
+										value="5000 PLN"
+										id="loan2"
+									/>
+									<input
+										type="button"
+										value="7500 PLN"
+										id="loan3"
+									/>
+									<input
+										type="button"
+										value="10000 PLN"
+										id="loan4"
+									/>
+								</div>
+								<div class="wplywy">
+									<p class="main-text">Historia</p>
+									<div class="section-under-main">
+										<p class="salary-history">+3600 PLN Wynagrodzenie</p>
+										<p class="chiwlowka-history"></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
