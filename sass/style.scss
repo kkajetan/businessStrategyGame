@@ -1,0 +1,224 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+	background-color: #333;
+}
+.main-text {
+	font-size: 36px;
+	text-align: center;
+	color: #ddd;
+}
+main {
+	display: flex;
+	justify-content: center;
+	.madeBy {
+		color: #ddd;
+		font-size: 36px;
+		text-align: center;
+		span {
+			transition: color 0.3s;
+		}
+		span:hover {
+			color: #7a7adb;
+			cursor: pointer;
+		}
+	}
+	.container {
+		display: block;
+		width: 1200px;
+		height: 700px;
+		border: 3px solid #b995bd;
+		.menu {
+			height: 10%;
+			background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+			.buttons {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				input {
+					margin-top: 1%;
+					padding: 10px;
+					cursor: pointer;
+					color: #ddd;
+					background-color: #0d324d;
+					border: 0px black none;
+					border-radius: 10px;
+					transition: background-color 0.3s;
+				}
+				input:hover {
+					background-color: #1d5d8b;
+				}
+				.year {
+					color: #ddd;
+				}
+			}
+		}
+	}
+	.content {
+		height: 90%;
+		display: block;
+		.career {
+			height: 100%;
+			width: 100%;
+			background-color: #a399b2;
+			background-image: linear-gradient(147deg, #a399b2 0%, #4d4855 74%);
+			color: #ddd;
+			.skills-section {
+				margin-top: 20px;
+			}
+			.actions {
+				display: flex;
+				justify-content: center;
+				.about-me {
+					align-items: center;
+					// .changingJob {
+					// }
+				}
+				input {
+					margin-top: 1%;
+					padding: 10px;
+					cursor: pointer;
+					color: #ddd;
+					background-color: #0d324d;
+					border: 0px black none;
+					border-radius: 10px;
+					transition: background-color 0.3s;
+					align-items: center;
+				}
+				input:hover {
+					background-color: #1d5d8b;
+				}
+			}
+		}
+		.crypto {
+			height: 100%;
+			width: 100%;
+			color: #ddd;
+			background-color: #0d0a0b;
+			background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+			.bitcoiny {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				td,
+				tr,
+				th,
+				table {
+					border: 2px solid #5e4361;
+				}
+			}
+			.portfelKrypto {
+				display: flex;
+				justify-content: center;
+				margin-top: 20px;
+				input {
+					padding: 10px;
+				}
+			}
+			input {
+				margin-top: 1%;
+				padding: 10px;
+				cursor: pointer;
+				color: #ddd;
+				background-color: #0d324d;
+				border: 0px black none;
+				border-radius: 10px;
+				transition: background-color 0.3s;
+				align-items: center;
+			}
+			input:hover {
+				background-color: #1d5d8b;
+			}
+		}
+		.metals {
+			color: #ddd;
+			height: 100%;
+			width: 100%;
+			background-color: #7a7adb;
+			background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+
+			.metale {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				td,
+				tr,
+				th,
+				table {
+					border: 2px solid #5e4361;
+				}
+			}
+			.portfelSurowce {
+				display: flex;
+				justify-content: center;
+				margin-top: 20px;
+				input {
+					padding: 10px;
+				}
+			}
+			input {
+				margin-top: 1%;
+				padding: 10px;
+				cursor: pointer;
+				color: #ddd;
+				background-color: #0d324d;
+				border: 0px black none;
+				border-radius: 10px;
+				transition: background-color 0.3s;
+				align-items: center;
+			}
+			input:hover {
+				background-color: #1d5d8b;
+			}
+		}
+		.bank {
+			height: 100%;
+			width: 100%;
+			color: #ddd;
+			background-color: #63a91f;
+			background-image: linear-gradient(314deg, #63a91f 0%, #1a512e 74%);
+
+			.logo-santander {
+				text-align: center;
+				padding: 10px;
+			}
+			.bankacc {
+				display: flex;
+				justify-content: center;
+			}
+			input {
+				margin-top: 1%;
+				padding: 10px;
+				cursor: pointer;
+				color: #ddd;
+				background-color: #0d324d;
+				border: 0px black none;
+				border-radius: 10px;
+				transition: background-color 0.3s;
+				align-items: center;
+			}
+			input:hover {
+				background-color: #1d5d8b;
+			}
+			.wplywy {
+				.main-text {
+					margin-top: 10px;
+				}
+				.section-under-main {
+					margin-top: 10px;
+				}
+			}
+		}
+		.hide {
+			display: none;
+		}
+		.show {
+			display: block;
+		}
+	}
+}
